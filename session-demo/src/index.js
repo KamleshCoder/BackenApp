@@ -4,5 +4,5 @@ module.exports=router
 
 router.get('/home',(req,res,next)=>{
 console.log(JSON.stringify(req.url));
-res.send("Welcome to the Home Page");
+res.send("Welcome to the Home");
 });
